@@ -30,6 +30,7 @@
           <button>Create An Account</button>
       </div>
 
+    <!--Use v-model to track an array-->
       <!-- <div class="terms">
           <input type="checkbox" value="shuan"  v-model="names">
           <label >Shuan</label>
@@ -44,11 +45,7 @@
       </div> -->
 
   </form>
-  <p>Email:{{email}}</p>
-  <p>Password:{{password}}</p>
-  <p>Role:{{role}}</p>
-  <p>Terms Accepted:{{terms}}</p>
-  <!-- <p>Names:{{names}}</p> -->
+  
 </template>
 
 <script>
